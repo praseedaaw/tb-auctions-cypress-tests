@@ -1,7 +1,7 @@
 # CYPRESS-E2E-TEST
 
 ## 📘 Project Overview
-End-to-end testing framework for Troostwijk Auctions[https://www.troostwijkauctions.com/en] website using Cypress with Page Object Model pattern. This framework provides automated testing capabilities for critical user journeys including authentication, shopping cart management, and order processing.
+End-to-end testing framework for Troostwijk Auctions[https://www.troostwijkauctions.com/en] website using Cypress with Page Object Model pattern. This framework provides automated testing capabilities for critical user journeys.
 
 ## 🧰 Project Structure
 ```
