@@ -1,7 +1,7 @@
 # CYPRESS-E2E-TEST
 
 ## 📘 Project Overview
-End-to-end testing framework for OWASP Juice Shop using Cypress with Page Object Model pattern. This framework provides automated testing capabilities for critical user journeys including authentication, shopping cart management, and order processing.
+End-to-end testing framework for Troostwijk Auctions[https://www.troostwijkauctions.com/en] website using Cypress with Page Object Model pattern. This framework provides automated testing capabilities for critical user journeys including authentication, shopping cart management, and order processing.
 
 ## 🧰 Project Structure
 ```
@@ -46,7 +46,6 @@ cypress/
 7. Use provided custom commands and step definitions
 
 ## ⚙️ Project Setup
-Once you have the Juice Shop application running:
 ```bash
 # Install dependencies
 npm install
@@ -67,8 +66,8 @@ npm run test
 # Run specific test spec
 npm run test:spec "cypress/e2e/bidding/BrowseObject.cy.js"
 
-# Configure static tests - ES Lint
-npm init @eslint/config
+# Run tests in headed browser (e.g. Chrome)
+npx cypress run --headed --browser chrome
 
 # Run ESLint
 npm run lint
